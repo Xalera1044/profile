@@ -67,11 +67,27 @@ h1, h2, h3 {
 #movies:hover {
   background-image: url("./images/7B97.gif");
   background-position: center;
+  font-size: 30px;
+  color:antiquewhite;
+}
+
+#hacking:hover {
+  background-image: url("./images/KM74.gif");
+  background-position: center;
+  color:antiquewhite;
+  font-size: 30px;
 }
 
 #top:hover {
   background-color:rgb(9, 2, 2);
-  color:rgb(122, 139, 122);
+  color:antiquewhite;
+  font-size: 30px;
+}
+
+#find:hover {
+  background-image: url("./images/7DZq.gif");
+  background-position: center;
+  font-size: 30px;
 }
 
 #profile-pic {
