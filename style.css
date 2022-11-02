@@ -58,6 +58,12 @@ h1, h2, h3 {
   color: rgb(117, 26, 26);
 }
 
+#beach:hover {
+  background-image: url("./images/6O2V.gif");
+  background-position: center;
+  font-size: 30px;
+}
+
 #profile-pic {
   width: 190px;
   border-radius: 40px;
