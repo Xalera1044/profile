@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+
+body {
+  font-family: 'Merriweather', serif;
+  color: rgb(20, 22, 22);
+  background-color: rgb(102, 142, 177);
+  font-size: larger;
+  font-stretch: extra-condensed;
+  background-image: url("./images/AQQT.gif");
+}
+
+h1, h2, h3 {
+  font-size: 35px;
+  color: rgb(49, 98, 167);
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+  background: rgb(210, 215, 214);
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 32px auto;
+  width: 800px;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(34, 50, 34);
+  border-radius: 20px;
+  color: white;
+  display: inline-block;
+  margin: 16px;
+  padding: 9px 15px;
+  box-shadow: 1px 1px 10px rgba(16, 113, 96, 0.5);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.btn:hover {
+  background-color: rgb(160, 59, 123);
+}
+
+.social {
+  display: inline-block;
+}
+.social > a {
+  color: rgb(9, 2, 2);
+  font-size: 50px;
+  padding: 15px;
+}
+
+.social > a:hover{
+  color: rgb(117, 26, 26);
+}
+
+#profile-pic {
+  width: 190px;
+  border-radius: 40px;
+}
+
+#social-list {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
