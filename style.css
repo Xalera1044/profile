@@ -4,7 +4,7 @@
 body {
   font-family: 'Merriweather', serif;
   color: rgb(20, 22, 22);
-  background-color: rgb(102, 142, 177);
+  background-color: rgb(112, 163, 208);
   font-size: larger;
   font-stretch: extra-condensed;
   background-image: url("./images/AQQT.gif");
@@ -12,7 +12,7 @@ body {
 
 h1, h2, h3 {
   font-size: 35px;
-  color: rgb(49, 98, 167);
+  color: rgb(21, 154, 156);
   font-family: 'Merriweather', serif;
 }
 
@@ -62,6 +62,16 @@ h1, h2, h3 {
   background-image: url("./images/6O2V.gif");
   background-position: center;
   font-size: 30px;
+}
+
+#movies:hover {
+  background-image: url("./images/7B97.gif");
+  background-position: center;
+}
+
+#top:hover {
+  background-color:rgb(9, 2, 2);
+  color:rgb(122, 139, 122);
 }
 
 #profile-pic {
